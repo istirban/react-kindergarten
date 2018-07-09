@@ -1,7 +1,7 @@
 import React from 'react';
 import Group from './Group'
 
-const GroupsList = (groups) => {
+const GroupsList = ({groups}) => {
     return (
         <div>
             {groups.map(group => (

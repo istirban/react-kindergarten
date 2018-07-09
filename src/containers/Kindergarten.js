@@ -11,11 +11,12 @@ class Kindergarten extends Component{
         const groups = await getGroups();
     
         this.setState({
-            groups
+            groups: groups
         });
       }
     render() {
         const {groups} = this.state
+        console.log(groups)
         return groups.length > 0 ? 
         (<div>
             <GroupsList 
