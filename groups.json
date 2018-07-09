@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "id": 234,
+      "title": "Stefan cel Mare",
+      "children": [
+        {
+          "name" : "Ioan Bucur"
+        },
+        {
+          "name" : "Vlad Voicu"
+        }
+      ]
+    },
+    {
+      "id": 324,
+      "title": "Mihai Viteazu",
+      "children": [
+        {
+          "name" : "Victor Cornescu"
+        },
+        {
+          "name" : "Vlad Voicu"
+        }
+      ]
+    }
+  ]
+}
